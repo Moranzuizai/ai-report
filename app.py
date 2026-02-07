@@ -27,7 +27,7 @@ def load_config():
     """读取配置文件"""
     if not os.path.exists(CONFIG_FILE):
         # 如果文件不存在，创建默认配置
-        default_config = {"admin_password": "199266", "user_password": "123456"}
+        default_config = {"admin_password": "199266", "user_password": "a123456"}
         with open(CONFIG_FILE, 'w') as f:
             json.dump(default_config, f)
         return default_config
