@@ -23,8 +23,8 @@ def check_password():
     password = st.sidebar.text_input("🔒 请输入访问密码", type="password")
     
     # --- 请在这里修改您的密码 ---
-    # 目前设置为 123456
-    if password == "123456":
+    # 目前设置为 a123456
+    if password == "a123456":
         return True
     return False
 
